@@ -2,8 +2,8 @@
 <a href="https://dscommunity.in">
 	<img src="https://github.com/Data-Science-Community-SRM/template/blob/master/Header.png?raw=true" width=80%/>
 </a>
-	<h2 align="center"> < Insert Project Title Here > </h2>
-	<h4 align="center"> < Insert Project Description Here > <h4>
+	<h2 align="center"> < ASTRO NUMBERS > </h2>
+	<h4 align="center"> < This project performs digit recognition using deep learning concepts. It can classify an image into 10 classes.We have built a Convolutional Neural Network (CNN) model using most popular Google library Tensorflow to recognize handwritten digits. > <h4>
 </p>
 
 ---
