@@ -52,12 +52,12 @@ For the output layer, a `dense` layer was used with `softmax` activation.The tab
 	
 ## Model loss:
 The following is the validation and training loss of the above model. <br>
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363679203983400/1wexrl9JUXQAAAABJRU5ErkJggg0A.png" class="center">
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363679203983400/1wexrl9JUXQAAAABJRU5ErkJggg0A.png" class="center"><br>
 As seen, there is very little noise in our model. This is due the fact that we have used the `adam` optimizer. 
 
 ## Model accuracy:
 The following is the validation and training accuracy of the above model. <br>
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363409573150751/eEXEDjgDw4h4RcQcqIBJRDxJ24cqZ8YutJxzDQyAUzOLNllDdqDlnL97fz3GJIk9dtf3sAlSSqdBS5JUoEscEmSCmSBS5JUIAtck.png" class="center">
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363409573150751/eEXEDjgDw4h4RcQcqIBJRDxJ24cqZ8YutJxzDQyAUzOLNllDdqDlnL97fz3GJIk9dtf3sAlSSqdBS5JUoEscEmSCmSBS5JUIAtck.png" class="center"><br>
 As of a typical Conv2D model, we see that the accuracy keeps improving in performance compared to the baseline.
 
 
