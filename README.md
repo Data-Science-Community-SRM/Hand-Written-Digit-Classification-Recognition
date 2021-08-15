@@ -41,6 +41,8 @@ It contains 2 Convolution layers, 1 dense layer with 128 nodes (ReLU), and a sof
 - [ ] ```pip install --upgrade seaborn```
 - [ ] ```pip install --upgrade numpy```
 - [ ] ```pip install --upgrade tensorflow```
+- [ ] ```python -m http.server 8000```
+
 
 ## Project architecture:
 Astro-Numbers uses Tensorflow and Keras libraries to build a sequential model with 2 `Conv2D` layers. 
