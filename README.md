@@ -94,14 +94,14 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 
 <td>
 
-John Doe
+Kruthi M
 
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
-<a href = "https://github.com/person1"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/person1">
+<a href = "https://github.com/Kruthim1304"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/kruthi-m-49b300200/">
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
@@ -110,14 +110,14 @@ John Doe
 
 <td>
 
-John Doe
+Abhay Lal
 
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876356351041863700/unknown.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
-<a href = "https://github.com/person2"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/person2">
+<a href = "https://github.com/abhay-lal"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/abhay-l-6850111bb/">
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
@@ -127,20 +127,36 @@ John Doe
 
 <td>
 
-John Doe
+Jahnavi Darbhamulla
 
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
-<a href = "https://github.com/person3"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://github.com/JahnaviDarbhamulla"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
 <a href = "https://www.linkedin.com/in/person3">
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
 </td>
 </tr>
+
+    <td>
+
+Aryan Karoliwal
+
+<p align="center">
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876356501961338932/1609862856356.png?raw=true"  height="120" alt="Aryan Karoliwal">
+</p>
+<p align="center">
+<a href = "https://github.com/xxNitroprasad"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = " www.linkedin.com/in/aryankaroliwal">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
   </table>
+
   
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
