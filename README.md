@@ -25,6 +25,7 @@ After manually pre-processing the dataset, we come to the part where we use conc
 It contains 2 Convolution layers, 1 dense layer with 128 nodes (ReLU), and a softmax layer with 10 output nodes using TensorFlow and its libraries.
 - [ ] The first convolutional layer is added with a small filter size (3,3) and a modest number of filters (64) followed by a max pooling layer. 
 - [ ] The second convolutional layer is added with a small filter size (3,3) and a modest number of filters (128) followed by a max pooling layer. 
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876361680056094740/unknown.png">
 - [ ] The model is compiled using the adam optimizer and the categorical cross-entropy loss function will be optimized which is suitable for multi-class classification.We are monitoring the classification accuracy metric since we have the same number of examples in each of the 10 classes.
 - [ ] The final trained model resulted in an accuracy around 99.71% on the dataset with 70,000 images.
 - [ ] The model can be experimented , the user can provide the digit input to the canvas and the model will detect which number it is. 
@@ -43,18 +44,20 @@ It contains 2 Convolution layers, 1 dense layer with 128 nodes (ReLU), and a sof
 - [ ] ```pip install --upgrade tensorflow```
 - [ ] ```python -m http.server 8000```
 
-
 ## Project architecture:
 Astro-Numbers uses Tensorflow and Keras libraries to build a sequential model with 2 `Conv2D` layers. 
 We use `batch_normalization` at the end of every layer for higher accuracy. Activation `relu` worked best for the dataset. 
 For the output layer, a `dense` layer was used with `softmax` activation.The tabular explanation of the same can be seen below.
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876361680056094740/unknown.png">
 	
 ## Model loss:
 The following is the validation and training loss of the above model. 
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876362167975288832/unknown.png">
 As seen, there is very little noise in our model. This is due the fact that we have used the `adam` optimizer. 
 
 ## Model accuracy:
 The following is the validation and training accuracy of the above model.
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876362531336249344/unknown.png">
 As of a typical Conv2D model, we see that the accuracy keeps improving in performance compared to the baseline.
 
 
@@ -71,22 +74,7 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 <br>
 
 
-## Instructions to run
 
-* Pre-requisites:
-	-  < insert pre-requisite >
-	-  < insert pre-requisite >
-
-* < directions to install > 
-```bash
-< insert code >
-```
-
-* < directions to execute >
-
-```bash
-< insert code >
-```
 
 ## Contributors
 
