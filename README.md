@@ -25,7 +25,7 @@ After manually pre-processing the dataset, we come to the part where we use conc
 It contains 2 Convolution layers, 1 dense layer with 128 nodes (ReLU), and a softmax layer with 10 output nodes using TensorFlow and its libraries.
 - [ ] The first convolutional layer is added with a small filter size (3,3) and a modest number of filters (64) followed by a max pooling layer. 
 - [ ] The second convolutional layer is added with a small filter size (3,3) and a modest number of filters (128) followed by a max pooling layer. <br>
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363980157911160/9k0A.png" class="center">
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363980157911160/9k0A.png" class="center"><br>
 - [ ] The model is compiled using the adam optimizer and the categorical cross-entropy loss function will be optimized which is suitable for multi-class classification.We are monitoring the classification accuracy metric since we have the same number of examples in each of the 10 classes.
 - [ ] The final trained model resulted in an accuracy around 99.71% on the dataset with 70,000 images.
 - [ ] The model can be experimented , the user can provide the digit input to the canvas and the model will detect which number it is. 
