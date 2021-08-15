@@ -139,7 +139,7 @@ Jahnavi Darbhamulla
 </a>
 </p>
 </td>
-</tr>
+
 
 <td>
 
@@ -155,6 +155,7 @@ Aryan Karoliwal
 </a>
 </p>
 </td>
+</tr>
 </table>
 
   
