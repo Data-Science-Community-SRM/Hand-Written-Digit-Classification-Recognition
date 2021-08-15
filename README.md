@@ -7,7 +7,7 @@
 </p>
 
 ---
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
+[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/README.md) 
   [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
 	
 ## Data preprocessing steps:
@@ -97,7 +97,7 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 Kruthi M
 
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://cdn.discordapp.com/attachments/835567060271628319/876360981398310962/WhatsApp_Image_2021-08-15_at_12.34.25_PM.jpeg?raw=true"  height="120" alt="Kruthi M">
 </p>
 <p align="center">
 <a href = "https://github.com/Kruthim1304"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -113,7 +113,7 @@ Kruthi M
 Abhay Lal
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876356351041863700/unknown.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876356351041863700/unknown.png?raw=true"  height="120" alt="Abhay Lal">
 </p>
 <p align="center">
 <a href = "https://github.com/abhay-lal"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -130,7 +130,7 @@ Abhay Lal
 Jahnavi Darbhamulla
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876358992031514634/unknown.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876358992031514634/unknown.png?raw=true"  height="120" alt="Jahnavi Darbhamulla">
 </p>
 <p align="center">
 <a href = "https://github.com/JahnaviDarbhamulla"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
