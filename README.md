@@ -141,7 +141,7 @@ Jahnavi Darbhamulla
 </td>
 </tr>
 
-    <td>
+<td>
 
 Aryan Karoliwal
 
@@ -155,7 +155,7 @@ Aryan Karoliwal
 </a>
 </p>
 </td>
-  </table>
+</table>
 
   
 ## License
