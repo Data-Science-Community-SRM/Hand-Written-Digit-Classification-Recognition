@@ -29,6 +29,7 @@ It contains 2 Convolution layers, 1 dense layer with 128 nodes (ReLU), and a sof
 <p align="center">
 <img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363980157911160/9k0A.png" style=" text-align:center;"><br>
 </p>
+<br>
 - [ ] The model is compiled using the adam optimizer and the categorical cross-entropy loss function will be optimized which is suitable for multi-class classification.We are monitoring the classification accuracy metric since we have the same number of examples in each of the 10 classes.
 - [ ] The final trained model resulted in an accuracy around 99.71% on the dataset with 70,000 images.
 - [ ] The model can be experimented , the user can provide the digit input to the canvas and the model will detect which number it is. 
@@ -53,19 +54,19 @@ We use `batch_normalization` at the end of every layer for higher accuracy. Acti
 For the output layer, a `dense` layer was used with `softmax` activation.The tabular explanation of the same can be seen below. <br>
 <p align="center">
 <img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363853078884372/unknown.png" align="centre">
-</p>	
+</p>	<br>
 ## Model loss:
 The following is the validation and training loss of the above model. <br>
 <p align="center">
 <img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363679203983400/1wexrl9JUXQAAAABJRU5ErkJggg0A.png" align="centre"><br>
-</p>
+</p><br>
 As seen, there is very little noise in our model. This is due the fact that we have used the `adam` optimizer. 
-
+<br>
 ## Model accuracy:
 The following is the validation and training accuracy of the above model. <br>
 <p align="center">
 <img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363409573150751/eEXEDjgDw4h4RcQcqIBJRDxJ24cqZ8YutJxzDQyAUzOLNllDdqDlnL97fz3GJIk9dtf3sAlSSqdBS5JUoEscEmSCmSBS5JUIAtck.png" align="middle"><br>
-</p>
+</p><br>
 As of a typical Conv2D model, we see that the accuracy keeps improving in performance compared to the baseline.
 
 
