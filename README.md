@@ -8,7 +8,7 @@
 
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/README.md) 
-  [![UI ](https://data-science-community-srm.github.io/Hand-Written-Digit-Classification-Recognition/main.html)](INSERT_UI_LINK_HERE)
+  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://data-science-community-srm.github.io/Hand-Written-Digit-Classification-Recognition/index.html)
 	
 ## Data preprocessing steps:
 - [ ] Splitting the data into training, testing and validation sets.
