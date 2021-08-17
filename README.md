@@ -80,7 +80,7 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 
 
 ## Preview
-<video src="https://cdn.discordapp.com/attachments/863847804253896704/877082355834163210/WhatsApp_Video_2021-08-17_at_12.19.25_PM.mp4"> 
+<video src="https://cdn.discordapp.com/attachments/863847804253896704/877082355834163210/WhatsApp_Video_2021-08-17_at_12.19.25_PM.mp4"> </video>
 	
 	
 ## Functionalities
