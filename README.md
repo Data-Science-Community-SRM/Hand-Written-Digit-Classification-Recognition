@@ -80,7 +80,7 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 
 
 ## Preview
-- Add pictures or important highlights from the Project (if any)
+< a href = "https://cdn.discordapp.com/attachments/863847804253896704/877082355834163210/WhatsApp_Video_2021-08-17_at_12.19.25_PM.mp4"> </a>
 ## Functionalities
 - [ ]   Astro numbers help primary teachers to give the students a unique experience in solving maths problems. 
 - [ ]   Works on a canvas providing an easy drawing interface.
