@@ -80,8 +80,9 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 
 
 ## Preview
+<p align="center">
 <img src="https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Astrogifnew.gif" width="800" height="400" />
-
+</p><br>
 	
 ## Functionalities
 - [ ]   Astro numbers help primary teachers to give the students a unique experience in solving maths problems. 
