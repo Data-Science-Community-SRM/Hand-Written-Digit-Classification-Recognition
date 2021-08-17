@@ -80,7 +80,7 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 
 
 ## Preview
-<img src="https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Astrogifnew.gif" width="1000" height="500" />
+<img src="https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Astrogifnew.gif" width="800" height="400" />
 
 	
 ## Functionalities
