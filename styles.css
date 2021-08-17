@@ -448,6 +448,9 @@ body {
 
 	}
 	@media (max-width:1262px) {
+		body{
+			overflow: hidden;
+		}
 	  #title {
 	    font-family: 'Stalinist One', cursive;
 	    color: white;
