@@ -80,7 +80,7 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 
 
 ## Preview
-![Astro Numbers](https://web.whatsapp.com/268fe29e-1183-423a-85fa-829b25704951)
+![Astro Numbers](https://cdn.discordapp.com/attachments/764497010614468648/877085975568867348/Astro_Numbers.gif)
 	
 	
 ## Functionalities
