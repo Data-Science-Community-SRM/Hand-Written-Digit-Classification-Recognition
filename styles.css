@@ -1,0 +1,525 @@
+
+
+
+.container{
+	display: grid;
+	height: 100vh; /*to expand the whole screen*/
+	width:200vh;
+	grid-template-columns: 0fr 0.7fr 0.3fr 1.2fr;
+	grid-template-rows: 0.6fr 0fr 1.2fr 1.2fr 0.8fr;
+	grid-template-areas: "nav nav nav nav"
+	"sidebar main main main"
+	"sidebar content1 content2 content3"
+		"sidebar footer footer footer";
+		grid-gap: 0.1rem;
+}
+
+nav{
+
+	grid-area:nav;
+}
+
+#content1{
+grid-area: content1;
+}
+#content2{
+grid-area: content2;
+}
+#content3{
+grid-area: content3;
+}
+footer{
+grid-area: footer;
+}
+
+/* #content1{background:#1d6363;
+grid-area: content1;
+}
+#content2{background:#32bfbf;
+grid-area: content2;
+}
+#content3{background:#5bd9be;
+grid-area: content3;
+}
+footer{background:#8ae3d0;
+grid-area: footer;
+} */
+
+/* svg Animation */
+
+svg {
+  position: relative;
+  height: 200vw;
+  width:70vw;
+  right: -120px;
+  top: -1vw;
+}
+
+.arm-left {
+  animation: armSwipe 5s 1s infinite ease-in-out;
+  transform-origin: left top;
+}
+
+@keyframes armSwipe {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.arm-right {
+  animation: armRightSwipe 5s 1s infinite ease-in-out;
+  transform-origin: right top;
+}
+
+@keyframes armRightSwipe {
+  0% {
+    transform: rotate(-1deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+.astronaut {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  animation: Levitation 5s 1s infinite ease-in-out;
+}
+
+@keyframes Levitation {
+  0% {
+    transform: translateY(100px);
+  }
+
+  50% {
+    transform: translateY(80px);
+  }
+
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+.leg-right {
+  animation: LegSwipe 5s 1s infinite ease-out;
+  transform-origin: left bottom;
+}
+
+@keyframes LegSwipe {
+  0% {
+    transform: rotate(8deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.leg-left {}
+
+@keyframes LegLeftSwipe {
+  0% {
+    transform: rotate(2deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+.reflect {
+  animation: faceOpacity 5s 1s infinite;
+}
+
+@keyframes faceOpacity {
+  0% {
+    opacity: 0.7;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+
+.eye-right {
+  animation: eyeBlink 5s infinite step-start 0s;
+}
+
+.eye-left {
+  animation: eyeLeftBlink 5s infinite step-start 0s;
+}
+
+@keyframes eyeBlink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: translateY(135px) scaleY(0);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes eyeLeftBlink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: translateY(155px) scaleY(0);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+  }
+}
+
+.stars {
+  width: 800px;
+  fill: #fff;
+  overflow: visible;
+  animation: starsRotate 155s 1s linear;
+  transform-origin: center;
+}
+
+@keyframes starsRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#astronaut_talk {
+	font-family: VT323;
+  position: absolute;
+  font-size: 2vw;
+  width:39vw;
+	bottom: 25vw;
+
+  color:#28FFBF;
+}
+
+body {
+  font-family: 'Just Another Hand', cursive;
+  background-color: ;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* TODO: Styling by html element: add styling for h1 and h2 */
+h1, h2 {
+  font-weight: 400;
+  font-size: 200px;
+}
+
+/* TODO: Styling by id: add styling for #title */
+#title {
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  line-height: 4vw;
+  font-size: 5vw;
+  letter-spacing: 1vw;
+}
+
+#question {
+  display: inline;
+	font-family: VT323;
+  color: #FFFFFF;
+	font-size: 7vw;
+	right:7vw;
+  position: relative;
+	bottom: -11vw;
+
+}
+
+/* TODO: Styling by id: add styling for canvas */
+#my-canvas {
+  vertical-align: top;
+  display: inline;
+  border: 5px solid #FFFFFF;
+  border-radius: 5%;
+right:3vw;
+  cursor: crosshair;
+  position: relative;
+bottom: -7vw;
+}
+
+.container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.btn {
+  margin: 10px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border-width: 0;
+  cursor: pointer;
+  color: #242E6B;
+  line-height: 70px;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 70px;
+  letter-spacing: 3px;
+  padding: 13px 32px 0 32px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  right: 400px;
+  top: 20px;
+}
+
+/* TODO: Styling by class: add Styling for button on hover */
+.btn:hover {
+  background-color: #242E6B;
+  color: white;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Global */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Galaxy-background-tumblr.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background: radial-gradient(circle at bottom, navy 0, black 100%);
+  height: 100%; */
+}
+
+/* Space */
+.space {
+  position: absolute;
+  width: 400vw;
+  height: 400vh;
+  top: 50%;
+  left: 50%;
+  margin-top: -200vh;
+  margin-left: -200vw;
+  animation: spin 100s linear infinite;
+  background-size: 240px;
+  backface-visibility: visible;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI0MCAyNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0MCAyNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxyZWN0IHg9IjEwNiIgeT0iOTAiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz48cmVjdCB4PSI3NCIgeT0iNjMiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIyMyIgeT0iNjYiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSI1MCIgeT0iMTEwIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iNjMiIHk9IjEyOCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjQ1IiB5PSIxNDkiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSI5MiIgeT0iMTUxIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iNTgiIHk9IjgiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNDciIHk9IjMzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+PHJlY3QgeD0iOTEiIHk9IjQzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMTY5IiB5PSIyOSIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjE4MiIgeT0iMTkiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNjEiIHk9IjU5IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMTM4IiB5PSI5NSIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjE5OSIgeT0iNzEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIzIiBoZWlnaHQ9IjMiLz48cmVjdCB4PSIyMTMiIHk9IjE1MyIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjIiIGhlaWdodD0iMiIvPjxyZWN0IHg9IjEyOCIgeT0iMTYzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMjA1IiB5PSIxNzQiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNTIiIHk9IjIwMCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjUyIiB5PSIyMTEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz48cmVjdCB5PSIxOTEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxMTAiIHk9IjE4NCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjwvc3ZnPg==);
+}
+
+.button1 {
+  margin-right: 10px;
+
+  position: relative;
+  color: #B8B5FF;
+  background: #2c0055;
+  z-index: 2;
+  height: 50px;
+  width: 250px;
+  padding: 2px;
+  bottom: 60px;
+  right: 300px;
+
+  font-size: 15px;
+  font-family: 'Stalinist One', cursive;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  border: none;
+}
+
+.button1:before,
+.button1:after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  border: 3px solid;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.button1:before {
+  top: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #FDF5CA;
+  border-left-color: #E98580;
+}
+
+.button1:after {
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #FDF5CA;
+  border-right-color: #E98580;
+}
+
+.button1:hover:before,
+.button1:hover:after {
+  border-color: #DEEDF0;
+  height: 100%;
+  width: 100%;
+}
+#checkAnswer {
+    position: relative;
+    /* left: -20vw;
+    bottom: 70px;
+    letter-spacing: 3px;
+    font-size:1.5vw;
+    height: 4vw;
+    width:25vw; */
+  }
+  #clear{
+    position: relative;
+		/* left: -20vw;
+    bottom: 70px;
+    letter-spacing: 3px;
+    font-size:1.5vw;
+    height: 4vw;
+    width:20vw; */
+  }
+	@media only screen and (max-width: 550px) {
+		.container{
+			grid-template-columns: 1fr;
+			grid-template-rows: 1.2fr 0.2fr 0.5fr 1.2fr 1.2fr 1.2fr 1fr;
+			grid-template-areas: "nav"
+
+				"content1"
+				"content2"
+				"content3"
+				"footer"
+		}
+
+
+	}
+	@media (max-width:1262px) {
+	  #title {
+	    font-family: 'Stalinist One', cursive;
+	    color: white;
+	    position:absolute;
+
+	    left: 180px;
+	    line-height: 80px;
+	    font-size: 130px;
+	    letter-spacing: 20px;
+	  }
+
+	  #astronaut_talk {
+	    position: absolute;
+	    width: 500px;
+	    font-size: 60px;
+	    left: 100px;
+	    top: 1600px;
+	      color:#28FFBF;
+	  }
+
+
+
+	  .svg_mobile {
+	    position: absolute;
+	    width: 1020px;
+	    height: 1420px;
+	    top: 1450px;
+	    left: 600px;
+	    right: 50px;
+	    bottom: -40vw;
+	    display: block;
+	  }
+
+	  #question {
+	    font-size: 300px;
+	    letter-spacing: 100px;
+	    display: flex;
+	    color: #FFFFFF;
+	    position: relative;
+	    left: 50px;
+	    top: 200px;
+			bottom: 400px;
+	  }
+
+	  #my-canvas {
+	    vertical-align: top;
+	    display: inline;
+	    border: 5px solid #FFFFFF;
+	    border-radius: 5%;
+
+	    cursor: crosshair;
+	    position: absolute;
+	    left: 550px;
+	    top: 1050px;
+	  }
+
+	  #checkAnswer {
+	    position: fixed;
+	    left: 200px;
+	    bottom: 130px;
+	    letter-spacing: 3px;
+	    font-size:40px;
+	    height: 140px;
+	    width: 520px;
+	  }
+	  #clear{
+	    position: fixed;
+	    left: 830px;
+	    bottom: 130px;
+	    letter-spacing: 3px;
+	    font-size:40px;
+	    height: 140px;
+	    width: 520px;
+	  }
+	}
