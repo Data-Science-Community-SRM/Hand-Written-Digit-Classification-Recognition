@@ -81,7 +81,8 @@ As of a typical Conv2D model, we see that the accuracy keeps improving in perfor
 
 ## Preview
 ![Astro Numbers](https://cdn.discordapp.com/attachments/764497010614468648/877085975568867348/Astro_Numbers.gif)
-	
+<img src="https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Astrogifnew.gif" width="1000" height="500" />
+
 	
 ## Functionalities
 - [ ]   Astro numbers help primary teachers to give the students a unique experience in solving maths problems. 
