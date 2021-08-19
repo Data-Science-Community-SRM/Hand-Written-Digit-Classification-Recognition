@@ -142,7 +142,7 @@ Abhay Lal
 Jahnavi Darbhamulla
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876358992031514634/unknown.png?raw=true"  height="120" alt="Jahnavi Darbhamulla">
+<img src = "https://cdn.discordapp.com/attachments/768075447488610316/877728203999957012/WhatsApp_Image_2021-08-15_at_10.52.00_AM.jpeg" height="120" alt="Jahnavi Darbhamulla">
 </p>
 <p align="center">
 <a href = "https://github.com/JahnaviDarbhamulla"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
