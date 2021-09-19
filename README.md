@@ -27,7 +27,7 @@ It contains 2 Convolution layers, 1 dense layer with 128 nodes (ReLU), and a sof
 - [ ] The second convolutional layer is added with a small filter size (3,3) and a modest number of filters (128) followed by a max pooling layer. <br>
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363980157911160/9k0A.png" style=" text-align:center;"><br>
+<img src = "https://drive.google.com/file/d/1OY_TRUgzA7Rf9GFgPllscF_401dew3cV/view?usp=sharing" style=" text-align:center;"><br>
 </p>
 <br>
 	
@@ -56,14 +56,14 @@ Astro-Numbers uses Tensorflow and Keras libraries to build a sequential model wi
 We use `batch_normalization` at the end of every layer for higher accuracy. Activation `relu` worked best for the dataset. 
 For the output layer, a `dense` layer was used with `softmax` activation.The tabular explanation of the same can be seen below. <br>
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876363853078884372/unknown.png" align="centre">
+<img src = "https://drive.google.com/file/d/1OY_TRUgzA7Rf9GFgPllscF_401dew3cV/view?usp=sharing" align="centre">
 </p>	
 <br>
 	
 ## Model loss:
 The following is the validation and training loss of the above model. <br>
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/865930287359983647/876370326320218192/Screenshot_2021-08-15_at_1.12.17_PM.png" align="centre"><br>
+<img src = "https://drive.google.com/file/d/1OY_TRUgzA7Rf9GFgPllscF_401dew3cV/view?usp=sharing" align="centre"><br>
 </p>
 <br>
 As seen, there is very little noise in our model. This is due the fact that we have used the `adam` optimizer. 
@@ -72,7 +72,7 @@ As seen, there is very little noise in our model. This is due the fact that we h
 ## Model accuracy:
 The following is the validation and training accuracy of the above model. <br>
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/865930287359983647/876370323837181962/Screenshot_2021-08-15_at_1.11.52_PM.png" align="middle"><br>
+<img src = "https://drive.google.com/file/d/1OY_TRUgzA7Rf9GFgPllscF_401dew3cV/view?usp=sharing" align="middle"><br>
 </p><br>
 As of a typical Conv2D model, we see that the accuracy keeps improving in performance compared to the baseline.
 
@@ -109,7 +109,7 @@ You can check out our website in the link given here: https://data-science-commu
 Kruthi M
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/835567060271628319/876360981398310962/WhatsApp_Image_2021-08-15_at_12.34.25_PM.jpeg?raw=true"  height="120" alt="Kruthi M">
+<img src = "https://drive.google.com/file/d/1DZFGvnD8VHhr_21Lwd2Z4GbUW6K-RLIj/view?usp=sharing"  height="120" alt="Kruthi M">
 </p>
 <p align="center">
 <a href = "https://github.com/Kruthim1304"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -125,7 +125,7 @@ Kruthi M
 Abhay Lal
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876356351041863700/unknown.png?raw=true"  height="120" alt="Abhay Lal">
+<img src = "https://drive.google.com/file/d/1OY_TRUgzA7Rf9GFgPllscF_401dew3cV/view?usp=sharing"  height="120" alt="Abhay Lal">
 </p>
 <p align="center">
 <a href = "https://github.com/abhay-lal"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -142,7 +142,7 @@ Abhay Lal
 Jahnavi Darbhamulla
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/768075447488610316/877728203999957012/WhatsApp_Image_2021-08-15_at_10.52.00_AM.jpeg" height="120" alt="Jahnavi Darbhamulla">
+<img src = "https://drive.google.com/file/d/1OY_TRUgzA7Rf9GFgPllscF_401dew3cV/view?usp=sharing" height="120" alt="Jahnavi Darbhamulla">
 </p>
 <p align="center">
 <a href = "https://github.com/JahnaviDarbhamulla"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -158,7 +158,7 @@ Jahnavi Darbhamulla
 Aryan Karoliwal
 
 <p align="center">
-<img src = "https://cdn.discordapp.com/attachments/863847804253896704/876356501961338932/1609862856356.png?raw=true"  height="120" alt="Aryan Karoliwal">
+<img src = "https://drive.google.com/file/d/1g967SJ9wrPPb8zQqo8fts9UtxSugEx-1/view?usp=sharing"  height="120" alt="Aryan Karoliwal">
 </p>
 <p align="center">
 <a href = "https://github.com/xxNitroprasad"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
