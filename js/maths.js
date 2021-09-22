@@ -122,7 +122,7 @@ function checkAnswer() {
     score++;
     console.log(`Correct! Score: ${score}`);
     score.toString();
-    document.getElementById('astronaut_talk').innerText = "Correct! Score: "+score+"\n"+space_fact;
+    document.getElementById('astronaut_talk').innerText = "Correct! Score: "+score+"\n\n"+space_fact;
 
 
     if (score <= 9) {
@@ -140,7 +140,7 @@ alert("Well done! Let's start again");
     }
 
     score.toString();
-    document.getElementById('astronaut_talk').innerHTML = "Score: "+score;
+    document.getElementById('astronaut_talk').innerText = "\n\n\n\n+"Score: "+score;
 
     alert('Oops! Wrong answer. ');
     setTimeout(function() {
