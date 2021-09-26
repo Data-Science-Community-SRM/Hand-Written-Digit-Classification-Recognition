@@ -72,7 +72,7 @@ The following is the validation and training accuracy of the above model. <br>
 <img src = "https://user-images.githubusercontent.com/76477365/134800727-84411fd5-7bc5-4ffa-a21e-0e745e1bfb5f.jpeg" style="width:500px;height:300px" align="middle"><br>
 </p><br>
 
-You can see that there is no overfitting and hence a dropout layer is not required.
+
 
 
 
