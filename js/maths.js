@@ -140,7 +140,7 @@ alert("Well done! Let's start again");
     }
 
     score.toString();
-    document.getElementById('astronaut_talk').innerText = "\n\n\n"+"Score: "+score;
+    document.getElementById('astronaut_talk').innerText = "Score: "+score;
 
     alert('Oops! Wrong answer. ');
     setTimeout(function() {
