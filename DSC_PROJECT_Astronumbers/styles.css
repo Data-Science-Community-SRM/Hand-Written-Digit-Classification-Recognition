@@ -1,0 +1,342 @@
+body {
+  background-image: url("bg.jpg");
+  font-family: 'Just Another Hand', cursive;
+  background-color: ;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  line-height: 9vh;
+  font-size: 10vh;
+  letter-spacing: 20px;
+  padding-top: 8vh;
+}
+
+#question {
+  display: inline;
+  position: relative;
+  top: 13vh;
+  color: #FFFFFF;
+  font-size: 10vh;
+}
+
+#astronaut_talk {
+  font-family: VT323;
+  color: #28FFBF;
+  font-size: 3.7vh;
+}
+
+#my-canvas {
+  border: 5px solid #FFFFFF;
+  border-radius: 5%;
+  position: relative;
+  left: 40vh;
+  top: -20vh;
+}
+
+.button1 {
+  margin-right: 10px;
+  position: relative;
+  top: -18vh;
+  color: #B8B5FF;
+  background: #2c0055;
+  z-index: 2;
+  font-size: 3vh;
+  font-family: 'Stalinist One', cursive;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  border: none;
+}
+
+.button1:before,
+.button1:after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  border: 3px solid;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.button1:before {
+  top: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #FDF5CA;
+  border-left-color: #E98580;
+}
+
+.button1:after {
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #FDF5CA;
+  border-right-color: #E98580;
+}
+
+.button1:hover:before,
+.button1:hover:after {
+  border-color: #DEEDF0;
+  height: 100%;
+  width: 100%;
+}
+
+/* SVG Animation */
+svg {
+  position: relative;
+  right: -45vh;
+  bottom: 50vh;
+}
+
+.arm-left {
+  animation: armSwipe 5s 1s infinite ease-in-out;
+  transform-origin: left top;
+}
+
+@keyframes armSwipe {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.arm-right {
+  animation: armRightSwipe 5s 1s infinite ease-in-out;
+  transform-origin: right top;
+}
+
+@keyframes armRightSwipe {
+  0% {
+    transform: rotate(-1deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+.astronaut {
+  width: 70vh;
+  height: auto;
+  overflow: visible;
+  animation: Levitation 5s 1s infinite ease-in-out;
+}
+
+@keyframes Levitation {
+  0% {
+    transform: translateY(100px);
+  }
+
+  50% {
+    transform: translateY(80px);
+  }
+
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+.leg-right {
+  animation: LegSwipe 5s 1s infinite ease-out;
+  transform-origin: left bottom;
+}
+
+@keyframes LegSwipe {
+  0% {
+    transform: rotate(8deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+.leg-left {}
+
+@keyframes LegLeftSwipe {
+  0% {
+    transform: rotate(2deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+.reflect {
+  animation: faceOpacity 5s 1s infinite;
+}
+
+@keyframes faceOpacity {
+  0% {
+    opacity: 0.7;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+
+.eye-right {
+  animation: eyeBlink 5s infinite step-start 0s;
+}
+
+.eye-left {
+  animation: eyeLeftBlink 5s infinite step-start 0s;
+}
+
+@keyframes eyeBlink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: translateY(135px) scaleY(0);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes eyeLeftBlink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: translateY(155px) scaleY(0);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+  }
+}
+
+.stars {
+  width: 800px;
+  fill: #fff;
+  overflow: visible;
+  animation: starsRotate 155s 1s linear;
+  transform-origin: center;
+}
+
+@keyframes starsRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Space */
+.space {
+  position: absolute;
+  width: 400vw;
+  height: 400vh;
+  top: 50%;
+  left: 50%;
+  margin-top: -200vh;
+  margin-left: -200vw;
+  animation: spin 100s linear infinite;
+  background-size: 240px;
+  backface-visibility: visible;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI0MCAyNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0MCAyNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxyZWN0IHg9IjEwNiIgeT0iOTAiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz48cmVjdCB4PSI3NCIgeT0iNjMiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIyMyIgeT0iNjYiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSI1MCIgeT0iMTEwIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iNjMiIHk9IjEyOCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjQ1IiB5PSIxNDkiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSI5MiIgeT0iMTUxIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iNTgiIHk9IjgiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNDciIHk9IjMzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+PHJlY3QgeD0iOTEiIHk9IjQzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMTY5IiB5PSIyOSIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjE4MiIgeT0iMTkiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNjEiIHk9IjU5IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMTM4IiB5PSI5NSIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjE5OSIgeT0iNzEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIzIiBoZWlnaHQ9IjMiLz48cmVjdCB4PSIyMTMiIHk9IjE1MyIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjIiIGhlaWdodD0iMiIvPjxyZWN0IHg9IjEyOCIgeT0iMTYzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMjA1IiB5PSIxNzQiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNTIiIHk9IjIwMCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjUyIiB5PSIyMTEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz48cmVjdCB5PSIxOTEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxMTAiIHk9IjE4NCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjwvc3ZnPg==);
+}
+
+@media (max-width:1000px) {
+  #title {
+    font-size: 8vh;
+  }
+
+  #astronaut_talk {
+    position: relative;
+    top: 50vh;
+  }
+
+  svg {
+    display: none;
+  }
+
+  .svg_mobile {
+    position: relative;
+    bottom: -50vh;
+    right: -55vh;
+    width: 1089px;
+    height: 1095px;
+  }
+
+  #my-canvas {
+    position: relative;
+    top: -36vh;
+  }
+
+  .button1 {
+    position: relative;
+    top: -28vh;
+    width: 50vh;
+  }
+
+  #checkAnswer {
+    margin-top: 5vh;
+  }
+
+  #clear {
+    margin-top: 5vh;
+  }
+}
