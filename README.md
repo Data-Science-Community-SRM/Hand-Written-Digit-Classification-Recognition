@@ -36,7 +36,7 @@ After manually pre-processing the dataset, we come to the part where we use conc
 ## Functionalities
 - [ ]   Astro numbers help primary teachers to give the students a unique experience in solving maths problems. 
 - [ ]   Works on a canvas providing an easy drawing interface.
-- [ ]   The web based application interface of Astro numbers uses a CNN model to classify the answers drawn by students.
+- [ ]   The web based application interface of Astro numbers uses a MLP model to classify the answers drawn by students.
 - [ ]   Assessment can be done by teachers and the final scores will appear on the screen.
 
 ## Instructions to run:
