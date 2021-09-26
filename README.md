@@ -20,20 +20,14 @@ The MNIST dataset is an acronym that stands for the Modified National Institute 
 
 ## Model Construction:
 Deep learning model:
-After manually pre-processing the dataset, we come to the part where we use concepts of Convolutional Neural Network and Transfer learning to build and train a model that classifies the handwritten digits.The 10 classes of digits are 0,1,2,3,4,5,6,7,8,9.
-- [ ] This model used in Astro Numbers has been trained to detect 10 classes of objects: Numbers from 0-9 using deep learning on the CNN model. 
-It contains 2 Convolution layers, 1 dense layer with 128 nodes (ReLU), and a softmax layer with 10 output nodes using TensorFlow and its libraries.
-- [ ] The first convolutional layer is added with a small filter size (3,3) and a modest number of filters (64) followed by a max pooling layer. 
-- [ ] The second convolutional layer is added with a small filter size (3,3) and a modest number of filters (128) followed by a max pooling layer. <br>
+After manually pre-processing the dataset, we come to the part where we use concepts of Multilayer perceptron to build and train a model that classifies the handwritten digits.The 10 classes of digits are 0,1,2,3,4,5,6,7,8,9.
+- [ ] This model used in Astro Numbers has been trained to detect 10 classes of objects: Numbers from 0-9 using deep learning on the MLP model. 
+- [ ] It contains 2 hidden layers, 1 dense layer with 512 nodes (ReLU),1 dense layer with 64 nodes (ReLU) and a softmax layer with 10 output nodes using TensorFlow and its libraries.
 
-<p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Doc%20images/1.png" style=" text-align:center;"><br>
-</p>
-<br>
 	
 - [ ] The model is compiled using the adam optimizer and the categorical cross-entropy loss function will be optimized which is suitable for multi-class classification.We are monitoring the classification accuracy metric since we have the same number of examples in each of the 10 classes.
 	<br>
-- [ ] The final trained model resulted in an accuracy around 99.71% on the dataset with 70,000 images.
+- [ ] The final trained model resulted in an accuracy around 97.67% on the dataset with 70,000 images.
 	<br>
 - [ ] The model can be experimented , the user can provide the digit input to the canvas and the model will detect which number it is. 
 
@@ -56,14 +50,15 @@ Astro-Numbers uses Tensorflow and Keras libraries to build a sequential model wi
 We use `batch_normalization` at the end of every layer for higher accuracy. Activation `relu` worked best for the dataset. 
 For the output layer, a `dense` layer was used with `softmax` activation.The tabular explanation of the same can be seen below. <br>
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Doc%20images/2.png" align="centre">
+	
+<img src ="https://user-images.githubusercontent.com/76477365/134796418-38444808-8d85-4791-8a80-9933201a42f3.png" style="width:500px;height:600px" align="centre">
 </p>	
 <br>
 	
 ## Model loss:
 The following is the validation and training loss of the above model. <br>
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Doc%20images/3.png" align="centre"><br>
+<img src = "https://user-images.githubusercontent.com/76477365/134801056-99880c05-e1ad-4fd9-a93d-f03ccc436213.jpeg" style="width:400px;height:300px" align="centre"><br>
 </p>
 <br>
 As seen, there is very little noise in our model. This is due the fact that we have used the `adam` optimizer. 
@@ -72,9 +67,10 @@ As seen, there is very little noise in our model. This is due the fact that we h
 ## Model accuracy:
 The following is the validation and training accuracy of the above model. <br>
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/Doc%20images/4.png" align="middle"><br>
+<img src = "https://user-images.githubusercontent.com/76477365/134800727-84411fd5-7bc5-4ffa-a21e-0e745e1bfb5f.jpeg" style="width:500px;height:300px" align="middle"><br>
 </p><br>
-As of a typical Conv2D model, we see that the accuracy keeps improving in performance compared to the baseline.
+
+You can see that there is no overfitting and hence a dropout layer is not required.
 
 
 
