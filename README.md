@@ -84,12 +84,7 @@ The following is the validation and training accuracy of the above model. <br>
 <br>
 </p><br>
 You can check out our website in the link given here: https://data-science-community-srm.github.io/Hand-Written-Digit-Classification-Recognition/index.html
-	
-## Functionalities
-- [ ]   Astro numbers help primary teachers to give the students a unique experience in solving maths problems. 
-- [ ]   Works on a canvas providing an easy drawing interface.
-- [ ]   The web based application interface of Astro numbers uses a CNN model to classify the answers drawn by students.
-- [ ]   Assessment can be done by teachers and the final scores will appear on the screen.
+
 
 <br>
 
