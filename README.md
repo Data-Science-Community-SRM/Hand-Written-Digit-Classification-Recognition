@@ -3,19 +3,21 @@
 	<img src="https://github.com/Data-Science-Community-SRM/template/blob/master/Header.png?raw=true" width=80%/>
 </a>
 	<h2 align="center">  ASTRO NUMBERS  </h2>
-	<h4 align="center">  This project performs digit recognition using deep learning concepts. It can classify an image into 10 classes.We have built a     Convolutional Neural Network (CNN) model using most popular Google library Tensorflow to recognize handwritten digits.  <h4>
+	<h4 align="center">  This project performs digit recognition using deep learning concepts. It can classify an image into 10 classes.We have built a Multilayer perceptron (MLP) model using most popular Google library Tensorflow to recognize handwritten digits.  <h4>
 </p>
 
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](https://github.com/Data-Science-Community-SRM/Hand-Written-Digit-Classification-Recognition/blob/master/README.md) 
   [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://data-science-community-srm.github.io/Hand-Written-Digit-Classification-Recognition/index.html)
 	
+The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset.It is a dataset of 70,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.In this project we have used it to classify a given image of a handwritten digit drawn on a canvas into one of 10 classes representing integer values from 0 to 9, inclusively.
+	
 ## Data preprocessing steps:
 - [ ] Splitting the data into training, testing and validation sets.
 - [ ] Flattening the images and displaying it.
 - [ ] Checking the number of instances for each digit.
 - [ ] Plotting graphs and charts for easier understanding.<br>
-The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset.It is a dataset of 70,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9.In this project we have used it to classify a given image of a handwritten digit drawn on a canvas into one of 10 classes representing integer values from 0 to 9, inclusively.
+
 
 
 ## Model Construction:
